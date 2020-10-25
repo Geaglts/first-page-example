@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+.container {
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: burlywood;
+}
+
+nav h1 {
+    color: brown;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: brown;
+    font-size: 12pt;
+    margin: 0 0.5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 300ms;
+}
+
+nav li a:hover {
+    opacity: 0.4;
+}
+
+#slider {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#slider img {
+    max-width: 60%;
+}
+
+.botonera {
+    position: absolute;
+    margin-bottom: 3.5em;
+    bottom: 0;
+}
+
+.botonera button {
+    color: #333;
+    margin: 0 0.6em;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 12pt;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.botonera button:hover {
+    color: burlywood;
+}
